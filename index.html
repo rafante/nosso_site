@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nosso Site</title>
+</head>
+<body>
+    Hello World!<br/>
+    <input id="valor1" type="number" value="0"><br/>
+    <input id="valor2" type="number" value="0"><br/>
+    <button onclick="somarEAlertar()">Clique em mim para dar o alerta</button>
+    <script>
+        function alertazinho(){
+            alert('Alerta! Este é o nosso site');
+        }
+        function somarEAlertar(){
+            var primeiroValor = document.getElementById('valor1').value;
+            var segundoValor = document.getElementById('valor2').value;
+            var soma = primeiroValor + segundoValor;
+            alert('O total da soma de '+ primeiroValor + ' com '+ segundoValor + ' é '+ soma);
+        }
+    </script>
+</body>
+</html>
