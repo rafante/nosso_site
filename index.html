@@ -17,8 +17,8 @@
             alert('Alerta! Este é o nosso site');
         }
         function somarEAlertar(){
-            var primeiroValor = document.getElementById('valor1').value;
-            var segundoValor = document.getElementById('valor2').value;
+            var primeiroValor = parseInt(document.getElementById('valor1').value);
+            var segundoValor = parseInt(document.getElementById('valor2').value);
             var soma = primeiroValor + segundoValor;
             alert('O total da soma de '+ primeiroValor + ' com '+ segundoValor + ' é '+ soma);
         }
